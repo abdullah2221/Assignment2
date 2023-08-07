@@ -6,7 +6,7 @@
 const temperatureConversion = (celsius: number) => {
 
     let fahrenheit = (celsius * 9 / 5) + 32;
-    console.log(`The conversion from C To F is ${fahrenheit}`);
+    console.log(`The conversion from Celsius To Farhenheit is ${fahrenheit}`);
 }
 temperatureConversion(19)
 
